@@ -17,3 +17,4 @@ def health_check(request):
     status = "OK"
     data = {"status": status}
     return JsonResponse(data)
+# Create your views here.

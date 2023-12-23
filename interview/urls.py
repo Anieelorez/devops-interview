@@ -1,4 +1,3 @@
-# healthcheck/urls.py
 from django.urls import path
 from .views import health_check, hello_devops
 
