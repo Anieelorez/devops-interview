@@ -1,0 +1,14 @@
+version: "3.8"
+services:
+ app:
+  build: .
+  volumes:
+   - .:/app
+  ports:
+   -8080:8080
+  image: app:djang0:v2
+  container_name: my_first_django_experiment
+  command: python manage.py runserver 0.0.0.0:8080
+   
+
+  
